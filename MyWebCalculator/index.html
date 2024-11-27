@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCalculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="container">
+            <div class="calculatorBody">
+                <div class="display">
+                    
+                </div>
+                <div class="screen">
+                    
+                </div>
+                <div class="row-1">
+                    <span onclick="clearAllContent()" class="function">AC</span>
+                    <span onclick="displayContent(this)" class="function">% </span>
+                    <span onclick="clearContent()"  class="function"><=</span>
+                    <span onclick="displayContent(this)" class="function"> / </span>
+                </div>
+                <div class="row-1">
+                    <span onclick="displayContent(this)" class="number">7</span>
+                    <span onclick="displayContent(this)" class="number">8</span>
+                    <span onclick="displayContent(this)" class="number">9</span>
+                    <span onclick="displayContent(this)" class="function"> * </span>
+                </div>
+                <div class="row-1">
+                    <span onclick="displayContent(this)" class="number">4</span>
+                    <span onclick="displayContent(this)" class="number">5</span>
+                    <span onclick="displayContent(this)" class="number">6</span>
+                    <span onclick="displayContent(this)" class="function"> - </span>
+                </div>
+                <div class="row-1">
+                    <span onclick="displayContent(this)" class="number">1</span>
+                    <span onclick="displayContent(this)" class="number">2</span>
+                    <span onclick="displayContent(this)" class="number">3</span>
+                    <span onclick="displayContent(this)" class="function"> + </span>
+                </div>
+                <div class="row-1">
+                    <span onclick="displayContent(this)" class="number" >00</span>
+                    <span onclick="displayContent(this)" class="number">0</span>
+                    <span onclick="displayContent(this)" class="number">.</span>
+                    <span onclick="calculate()" class="isEqual">=</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
